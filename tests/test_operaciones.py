@@ -1,5 +1,5 @@
 import pytest
-from src.factorial import factorial  # Importa el módulo desde el paquete src
+from src.operaciones import factorial  # Importa el módulo desde el paquete src
 
 def test_factorial():
     assert factorial(0) == 1           # Caso base
